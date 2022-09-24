@@ -3,45 +3,6 @@ package minesweeper;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/*
-BEGINNER
-Number of trials: 1000000
-
-Wins: 948545
-Losses: 51455
-Stuck: 0
-
-68.494 seconds
-0.068494 ms/game
-14599.82 games/s
-*/
-
-/*
-INTERMEDIATE
-Number of trials: 100000
-
-Wins: 81522
-Losses: 18478
-Stuck: 0
-
-85.746 seconds
-0.85746 ms/game
-1166.24 games/s
-*/
-
-/*
-EXPERT
-Number of trials: 100000
-
-Wins: 31638
-Losses: 68362
-Stuck: 0
-
-721.094 seconds
-7.21094 ms/game
-138.68 games/s
-*/
-
 public class MineSolverRunner  {
 
 	public static void main(String[] args) {
@@ -66,8 +27,6 @@ public class MineSolverRunner  {
 				while (MineSolver.solve(test))
 					;
 			}
-			//System.out.println(test);
-
 			switch (test.gameWL()) {
 			case 0:
 				stuck++;
