@@ -1,6 +1,4 @@
 # MineSolver
-MineSolverRunner runs the algorithm for a specified number of games and prints results.
+MineSolverRunner plays a specified number of games (standard expert mode) using MineSolver methods and prints the results.
 
 MSRunner allows you to play minesweeper using text input.
-
-Note: this was made a while ago. Not my finest work, but it works.
